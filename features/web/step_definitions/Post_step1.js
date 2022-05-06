@@ -36,7 +36,9 @@ When('I click next', async function() {
 
 })
 
+*/
 
+// Login de creación post y login actualización
 When('I enter name {kraken-string}', async function (name){
     let element1 = await this.driver.$('#ember8');
     return await element1.setValue(name);
@@ -50,7 +52,11 @@ When('I click next', async function (){
     let element = await this.driver.$('#ember12');
     return await element.click();
 });
+// Login de la aplicacion, login de creación post
 
+
+
+//Creación de post
 When('I create post', async function (){
     let element = await this.driver.$('#ember29');
     return await element.click();
@@ -62,13 +68,11 @@ Then('I write a post title {kraken-string}', async function (title){
 });
 
 Then('I write a post description {kraken-string}', async function (description){
-    let element1 = await this.driver.$('.koenig-editor__editor');
+    let element1 = await this.driver.$('/html[1]/body[1]/div[2]/div[1]/main[1]/section[1]/div[1]/div[1]/article[1]/div[1]/div[1]');
     return await element1.setValue(description);
 });
 When('I click to create a post', async function (){
-
     let element = await this.driver.$('.gh-publishmenu');
-    
     return await element.click();
 });
 
@@ -76,6 +80,4 @@ When('I publish a post', async function (){
     let element = await this.driver.$('/html[1]/body[1]/div[1]/div[1]/footer[1]/button[2]/span[1]');
     return await element.click();
 });
-
-
-*/
+//Creación de post
