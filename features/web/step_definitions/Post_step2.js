@@ -44,3 +44,14 @@ Then('I delete post', async function (){
     return await element.click();
 });
 //Eliminacióm de un de post
+
+//Cambiar Post de estado Publish a Draft
+
+When('I click Unpublished', async function (){
+    let element = await this.driver.$('/html[1]/body[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]');
+    return await element.click();
+});
+When('I confirm Unpublished', async function (){
+    let element = await this.driver.$('/html[1]/body[1]/div[1]/div[1]/footer[1]/button[2]/span[1]');
+    return await element.click();
+});
