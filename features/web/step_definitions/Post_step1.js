@@ -1,4 +1,6 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
+
+//CREATING AN ACCOUNT
 /*
 When('I enter email {kraken-string}', async function (title){
 
@@ -33,7 +35,7 @@ When('I click next', async function() {
     return await element.click();
 
 })
-*/
+
 
 When('I enter name {kraken-string}', async function (name){
     let element1 = await this.driver.$('#ember8');
@@ -76,3 +78,4 @@ When('I publish a post', async function (){
 });
 
 
+*/
