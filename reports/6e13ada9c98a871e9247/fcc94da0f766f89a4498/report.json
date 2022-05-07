@@ -1,0 +1,82 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "iniciar-una-conversación;como-usuario-2-inicio-sesion-y-mandó-un-mensaje-al-usuario-1",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Como usuario 2 inicio sesion y mandó un mensaje al usuario 1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2038000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I navigate to page “https://www.messenger.com/login”",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I enter email \"<USERNAME>\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1141000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user2",
+            "line": 11
+          },
+          {
+            "name": "@web",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "iniciar-una-conversación",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Iniciar una conversación",
+    "tags": [],
+    "uri": "features\\my_first.feature"
+  }
+]

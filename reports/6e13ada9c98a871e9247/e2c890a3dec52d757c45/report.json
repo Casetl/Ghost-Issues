@@ -1,0 +1,82 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "iniciar-una-conversación;como-primer-usuario-inicio-sesion-y-mandó-un-mensaje-al-usuario-2",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Como primer usuario inicio sesion y mandó un mensaje al usuario 2",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to page “https://www.messenger.com/login”",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter email \"<USERNAME>\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 337000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 4
+          },
+          {
+            "name": "@web",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "iniciar-una-conversación",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Iniciar una conversación",
+    "tags": [],
+    "uri": "features\\my_first.feature"
+  }
+]

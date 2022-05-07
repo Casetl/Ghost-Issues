@@ -1,0 +1,265 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pages;como-usuario-elimino-una-pagina-existente",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Como usuario elimino una Pagina Existente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 755000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to page 'http://localhost:2368/ghost/#/signin'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1093000000
+            },
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABcsAAAPiCAYAAACg54USAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3d2PXIdZx/HnvM3Lxn1TUV+TQEEglTsEaqm4qlC5RkL8oyAKlZCKqEAgqMolfaEXVAhQkzRR1jszZ+acw0W8U8eNE4fEnrV/n49kyfJ6vc/czX797HOaZVmWAgAAAACAYO2lBwAAAAAAgEsTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQT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AAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAAAAAADiieUAAAAAAMQTywEAAAAAiCeWAwAAAAAQTywHAAAAACCeWA4AAAAAQDyxHAAAAACAeGI5AAAAAADxxHIAAAAAAOKJ5QAAAAAAxBPLAQAAAACIJ5YDAAAAABBPLAcAAAAAIJ5YDgAAAABAPLEcAAAAAIB4YjkAAAAAAPHEcgAAAAAA4onlAAAAAADEE8sBAAAAAIgnlgMAAAAAEE8sBwAAAAAgnlgOAAAAAEA8sRwAAAAAgHhiOQAAAAAA8cRyAID/a8cOBAAAAAAE+VsPcmEEAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgDK87KnAAAH+UlEQVQAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsCfLAQAAAADYk+UAAAAAAOzJcgAAAAAA9mQ5AAAAAAB7shwAAAAAgD1ZDgAAAADAniwHAAAAAGBPlgMAAAAAsBfmZhQRYEQW4wAAAABJRU5ErkJggg==",
+                "mime_type": "image/png"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5018000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter Email_address 'e.tapia@uniandes.edu.co'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 7000000,
+              "error_message": "Error: no current window handle registered\n    at DevToolsDriver.getPageHandle (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\devtools\\build\\devtoolsdriver.js:166:19)\n    at DevToolsDriver.checkPendingNavigations (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\devtools\\build\\devtoolsdriver.js:179:25)\n    at Browser.wrappedCommand (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\devtools\\build\\devtoolsdriver.js:97:24)\n    at Browser.wrapCommandFn (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n    at Browser.<anonymous> (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Browser.findElement (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\webdriverio\\build\\utils\\index.js:243:20)\n    at Browser.$ (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:91:43)\n    at Browser.wrapCommandFn (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n    at C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\@wdio\\utils\\build\\shim.js:154:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I enter Password '12345678910'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click sing-in",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click Pages",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I edit last page",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:68"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I wait for 10 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click Page settings",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click Delete Page",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:79"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click Delete",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:84"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "Error: no current window handle registered\n    at DevToolsDriver.getPageHandle (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\devtools\\build\\devtoolsdriver.js:166:19)\n    at DevToolsDriver.checkPendingNavigations (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\devtools\\build\\devtoolsdriver.js:179:25)\n    at Browser.wrappedCommand (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\devtools\\build\\devtoolsdriver.js:97:24)\n    at Browser.wrapCommandFn (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n    at Browser.<anonymous> (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at WebClient.<anonymous> (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:109:59)\n    at step (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:59:23)\n    at Object.next (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:40:53)\n    at C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:34:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:30:12)\n    at WebClient.stop (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:104:16)\n    at WebClient.<anonymous> (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\kraken-node\\lib\\clients\\Client.js:109:51)\n    at step (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\kraken-node\\lib\\clients\\Client.js:67:23)\n    at Object.next (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\kraken-node\\lib\\clients\\Client.js:48:53)\n    at fulfilled (C:\\Users\\ANDRES\\OneDrive\\Documentos\\Proyectos Maestria\\Kraken-Example\\node_modules\\kraken-node\\lib\\clients\\Client.js:39:58)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user3",
+            "line": 4
+          },
+          {
+            "name": "@web",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "pages",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pages",
+    "tags": [],
+    "uri": "features\\pagina.feature"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "iniciar-una-conversación;como-usuario-2-inicio-sesion-y-mandó-un-mensaje-al-usuario-1",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Como usuario 2 inicio sesion y mandó un mensaje al usuario 1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11042000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I navigate to page “https://www.messenger.com/login”",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user2",
+            "line": 9
+          },
+          {
+            "name": "@web",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "iniciar-una-conversación",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Iniciar una conversación",
+    "tags": [],
+    "uri": "features\\my_first.feature"
+  }
+]
