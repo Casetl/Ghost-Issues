@@ -240,3 +240,5 @@ When('I check data {kraken-string} saved from metatag',async function(title_meta
     let element = await this.driver.$('.gh-seo-preview-title');
     expect(await element.getText()).to.equal(title_metatag);
 });
+
+//Prueba
