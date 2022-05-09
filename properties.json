@@ -6,5 +6,11 @@
     "LABELS_NEW_MEMBER": "Universidad de los andes", 
     "NOTE_NEW_MEMBER": "Esto es un ejercicio de pruebas automatizadas",
     "SEARCH_USER": "Prueba",
-    "FILTER_ITEM": "Prueba"
+    "FILTER_ITEM": "Prueba",
+    "META_TAG_TITLE": "Prueba_Tag",
+    "META_TAG_DESC": "Prueba_Tag_Desc",
+    "TWITTER_TAG_TITLE": "Prueba_Twitter_Tag",
+    "TWITTER_TAG_DESC": "Prueba_Twitter_Tag_Desc",
+    "FACEBOOK_TAG_TITLE": "Prueba_Facebook_Tag",
+    "FACEBOOK_TAG_DESC": "Prueba_Facebook_Tag_Desc"
 }
