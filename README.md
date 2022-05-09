@@ -45,7 +45,8 @@ Prueba de funcionamiento: https://www.youtube.com/watch?v=iGCfGKJPimo
 Prueba de Funcionamiento: https://youtu.be/sG5FoiNgN2k
 
 ## Escenarios:
-- Como usuario inicio sesion y creo una nueva Pagina
-- Como usuario actualizo una Pagina Existente
-- Como usuario elimino una Pagina Existente
-- Como usuario filtro las paginas publicadas del listado de paginas
+- Inicio de Sesion - Tags
+- Update Tag MetaData - Tags
+- Update Tag TwitterData - Tags
+- Update Tag FacebookData - Tags
+- Check Metadata Tags - Tags
