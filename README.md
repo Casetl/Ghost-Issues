@@ -3,7 +3,7 @@ Reporte de incidencias Ghost
 
 # pruebas-ghost
 ## Pruebas automatizadas - KRAKEN
-### Tags
+
 # Pasos para ejecutar
 - Descargar el repositorio: git clone + URL del repostitorio
 - Para ir a la rama donde esta todos los test integrados (git checkhout develop)
@@ -14,6 +14,7 @@ Reporte de incidencias Ghost
 # FUNCIONALIDADES KRAKEN:
 
 ## FUNCIONALIDAD: POST
+Prueba de funcionamiento: https://www.youtube.com/watch?v=iGCfGKJPimo
 
 ## Escenarios:
 -Welcome to Ghost
