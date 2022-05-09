@@ -102,21 +102,6 @@ Given('I navigate to page {string}', async function (page) {
     return await this.driver.url(page);
 });
 
-When('I enter Email_address {kraken-string}', async function (ember7) {
-    let element = await this.driver.$('#ember7');
-    return await element.setValue(ember7);
-});
-
-When('I enter Password {kraken-string}', async function (ember9) {
-    let element = await this.driver.$('#ember9');
-    return await element.setValue(ember9);
-});
-
-When('I click sing-in', async function() {
-    let element = await this.driver.$('#ember11');
-    return await element.click();
-})
-
 When('I click Pages', async function() {
     let element = await this.driver.$('#ember28');
     return await element.click();

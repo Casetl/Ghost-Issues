@@ -96,19 +96,17 @@ Scenario: Como usuario administrador quiero poder eliminar un miembro
     And I click on settings
     And I wait for 3 seconds
 
-
-
-
+# Scenarios Andres
 
 @user6 @web
 Scenario: Como usuario inicio sesion y creo una nueva Pagina
     Given I navigate to page 'http://localhost:2368/ghost/#/signin'
     And I wait for 5 seconds
-    When I enter Email_address "<USERNAME>"
+    When I enter email "<USERNAME>"
     And I wait for 5 seconds
-    And I enter Password "<PASSWORD>"
+    And I enter password "<PASSWORD>"
     And I wait for 5 seconds
-    And I click sing-in
+    And I click next
     And I wait for 7 seconds
     And I click Pages
     And I wait for 5 seconds
@@ -126,11 +124,11 @@ Scenario: Como usuario inicio sesion y creo una nueva Pagina
 Scenario: Como usuario actualizo una Pagina Existente
     Given I navigate to page 'http://localhost:2368/ghost/#/signin'
     And I wait for 5 seconds
-    When I enter Email_address "<USERNAME>"
+   When I enter email "<USERNAME>"
     And I wait for 5 seconds
-    And I enter Password "<PASSWORD>"
+    And I enter password "<PASSWORD>"
     And I wait for 5 seconds
-    And I click sing-in
+    And I click next
     And I wait for 7 seconds
     And I click Pages
     And I wait for 5 seconds
@@ -150,11 +148,11 @@ Scenario: Como usuario actualizo una Pagina Existente
 Scenario: Como usuario elimino una Pagina Existente
     Given I navigate to page 'http://localhost:2368/ghost/#/signin'
     And I wait for 5 seconds
-    When I enter Email_address "<USERNAME>"
+    When I enter email "<USERNAME>"
     And I wait for 5 seconds
-    And I enter Password "<PASSWORD>"
+    And I enter password "<PASSWORD>"
     And I wait for 5 seconds
-    And I click sing-in
+    And I click next
     And I wait for 7 seconds
     And I click Pages
     And I wait for 5 seconds
@@ -171,11 +169,11 @@ Scenario: Como usuario elimino una Pagina Existente
 Scenario: Como usuario filtro las paginas publicadas del listado de paginas
     Given I navigate to page 'http://localhost:2368/ghost/#/signin'
     And I wait for 5 seconds
-    When I enter Email_address "<USERNAME>"
+    When I enter email "<USERNAME>"
     And I wait for 5 seconds
-    And I enter Password "<PASSWORD>"
+    And I enter password "<PASSWORD>"
     And I wait for 5 seconds
-    And I click sing-in
+    And I click next
     And I wait for 7 seconds
     And I click Pages
     And I wait for 10 seconds
